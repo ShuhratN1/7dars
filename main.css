@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #F9C4AA;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.link {
+    display: flex;
+    gap: 29px;
+}
+
+.main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: start;
+    width: 440px;
+}
+
+h1 {
+    font-size: 48px;
+
+}
+
+p {
+    font-size: 18px;
+    color: gray;
+}
+
+.botton {
+    background-color: rgba(128, 128, 128, 0.041);
+    width: 248px;
+    height: 58px;
+}
+
+
+
+.img-1 {
+    position: relative;
+    background-image: url(./image\ 1\ \(2\).png);
+    width: 100%;
+    height: 367px;
+    color: white;
+}
+.frontt{
+    position: absolute;
+    top: 65px;
+}
+.front {
+    position: absolute;
+    width: 450px;
+    top: 45%;
+}
+
+.img-wrap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    
+    
+}
+.main_wrapper{
+display: flex;
+ justify-content: space-between    ;
+width: 1180px;
+height: 590px;
+}
+.leftt{
+    
+   width: 590px;
+    
+    height: 58px;
+}
+footer{
+    background-color: white;
+    height: 190px;
+    width: 100%;
+}
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container{
+  
+}
+.foooter{
+    color: white;
+    margin: 50px;
+}
+button{
+    color: white;
+    background-color: black;
+    border: 5px 5px;
+}
+.foter{
+    display: flex;
+justify-content: space-between;
+gap: 50px;
+margin: 390px;
+}
+.btn-bg{
+    top: 3;
+    position: relative;
+}
+.footer-begin{
+    background-color: #FFD394;
+}
+.section-2{
+    padding: 200px;
+
+}
+.sec-text{
+    font-size: 48px;
+}
+.right-box{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-text-top::after{
+    content: '1';
+    width: 50px;
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: absolute;
+    bottom: 25px;
+    left: -75px;
+    font-size: 24px;
+    border-radius: 50px;
+}
+
+.right-wrap{
+    display: flex;
+}
